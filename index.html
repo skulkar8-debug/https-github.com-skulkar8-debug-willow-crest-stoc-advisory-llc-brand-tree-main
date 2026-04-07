@@ -392,7 +392,7 @@
     <!--
       BACKGROUND VIDEO: willow-crest-hero.mp4
       Recommended: aerial or ground-level footage of a warm, modern veterinary clinic or
-      pet wellness center — natural light, a vet gently examining a dog or cat,
+      pet wellness center - natural light, a vet gently examining a dog or cat,
       or sweeping outdoor shots with animals in pastoral/natural settings.
       Tone: calm, professional, warm. Avoid clinical/sterile hospital look.
       Fallback poster image: willow-crest-hero-poster.jpg
@@ -429,7 +429,7 @@
     <div class="container">
       <div class="eyebrow">About</div>
       <h2 class="section-title">Clarity, Fit, and Confidentiality</h2>
-      <p class="section-lead">Willow Crest Partners is a buy-side advisory firm that works exclusively with established veterinary and pet services companies. Transitioning a practice you've built is deeply personal, and our role is to make discreet, well-matched introductions — not run a broad public process.</p>
+      <p class="section-lead">Willow Crest Partners is a buy-side advisory firm that works exclusively with established veterinary and pet services companies. Transitioning a practice you've built is deeply personal, and our role is to make discreet, well-matched introductions - not run a broad public process.</p>
 
       <div class="about-grid">
         <div class="about-card">
@@ -446,7 +446,7 @@
           <ul class="list">
             <li><span class="bullet"></span><div><strong>Mission-aligned partners.</strong> Investors who share your commitment to animal welfare and clinical excellence.</div></li>
             <li><span class="bullet"></span><div><strong>You stay in control.</strong> We facilitate introductions; you drive terms and timing.</div></li>
-            <li><span class="bullet"></span><div><strong>Confidential process.</strong> Only curated fits — no broad marketing, no public listings.</div></li>
+            <li><span class="bullet"></span><div><strong>Confidential process.</strong> Only curated fits - no broad marketing, no public listings.</div></li>
           </ul>
         </div>
       </div>
@@ -476,7 +476,7 @@
     </div>
   </section>
 
-  <!-- Focus Areas — set SITE_PUBLISHED = true to show this section -->
+  <!-- Focus Areas - set SITE_PUBLISHED = true to show this section -->
   <script>var SITE_PUBLISHED = false;</script>
   <section id="focus" class="section--dark pad-lg" id="focus-section">
     <div class="container">
@@ -490,7 +490,7 @@
         </div>
         <div class="focus-item">
           <h3>Specialty &amp; Referral Hospitals</h3>
-          <p>Multi-specialty and emergency veterinary hospitals offering cardiology, oncology, surgery, neurology, and critical care — high-value referral networks with defensible competitive positioning.</p>
+          <p>Multi-specialty and emergency veterinary hospitals offering cardiology, oncology, surgery, neurology, and critical care - high-value referral networks with defensible competitive positioning.</p>
         </div>
         <div class="focus-item">
           <h3>Emergency &amp; Critical Care Centers</h3>
@@ -498,7 +498,7 @@
         </div>
         <div class="focus-item">
           <h3>Veterinary Dental Services</h3>
-          <p>Veterinary dental specialty practices and general practices with strong dental programs — a fast-growing consolidation vertical driven by increased pet owner awareness and recurring procedure demand.</p>
+          <p>Veterinary dental specialty practices and general practices with strong dental programs - a fast-growing consolidation vertical driven by increased pet owner awareness and recurring procedure demand.</p>
         </div>
         <div class="focus-item">
           <h3>Pet Wellness &amp; Preventive Care</h3>
@@ -514,7 +514,7 @@
         </div>
         <div class="focus-item">
           <h3>Veterinary Diagnostic Laboratories</h3>
-          <p>Reference labs, in-house diagnostic services, and imaging centers serving practice networks — a capital-efficient, high-margin consolidation opportunity within the veterinary ecosystem.</p>
+          <p>Reference labs, in-house diagnostic services, and imaging centers serving practice networks - a capital-efficient, high-margin consolidation opportunity within the veterinary ecosystem.</p>
         </div>
         <div class="focus-item">
           <h3>Pet Pharmacy &amp; Compounding</h3>
@@ -557,7 +557,7 @@
             </div>
             <div class="step-content">
               <h4>Profile Preparation</h4>
-              <p>We collaborate with you to organize the essential information investors typically expect — keeping details high-level until you're ready to proceed. This ensures you're well-prepared while protecting client confidentiality and practice goodwill.</p>
+              <p>We collaborate with you to organize the essential information investors typically expect - keeping details high-level until you're ready to proceed. This ensures you're well-prepared while protecting client confidentiality and practice goodwill.</p>
               <div class="step-details"><span class="time-estimate">Document review</span></div>
             </div>
           </div>
@@ -570,7 +570,7 @@
             </div>
             <div class="step-content">
               <h4>Curated Introductions</h4>
-              <p>We make targeted introductions only to strategic fits — vetted investors who align with your goals, values, and commitment to quality animal care. No cold calls, no broad marketing, and no approaches that risk exposing your transition to staff or clients prematurely.</p>
+              <p>We make targeted introductions only to strategic fits - vetted investors who align with your goals, values, and commitment to quality animal care. No cold calls, no broad marketing, and no approaches that risk exposing your transition to staff or clients prematurely.</p>
               <div class="step-details"><span class="time-estimate">Targeted outreach</span></div>
             </div>
           </div>
@@ -708,7 +708,7 @@
         <div class="faq-item">
           <button class="faq-btn" type="button">Do you market my practice or business publicly?</button>
           <div class="faq-panel">
-            <p>No. We do not run broad, public auction processes. We take a curated, relationship-driven approach — introducing our clients only to consolidation platforms, PE-backed groups, and strategic acquirers that are actively investing in the relevant veterinary or pet services vertical, geography, and growth profile.</p>
+            <p>No. We do not run broad, public auction processes. We take a curated, relationship-driven approach - introducing our clients only to consolidation platforms, PE-backed groups, and strategic acquirers that are actively investing in the relevant veterinary or pet services vertical, geography, and growth profile.</p>
           </div>
         </div>
 
@@ -878,18 +878,14 @@
 
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Publish flag — set SITE_PUBLISHED = true above to reveal the Focus section
+    // Publish flag - set SITE_PUBLISHED = true to reveal everything below About
     if (!SITE_PUBLISHED) {
-      const focusSection = document.getElementById('focus');
-      if (focusSection) focusSection.style.display = 'none';
-      // Hide the nav link too
-      document.querySelectorAll('.nav-links a[href="#focus"]').forEach(el => el.parentElement.style.display = 'none');
-      // Hide surrounding dividers adjacent to the focus section
-      document.querySelectorAll('.divider').forEach(d => {
-        const next = d.nextElementSibling;
-        const prev = d.previousElementSibling;
-        if ((next && next.id === 'focus') || (prev && prev.id === 'focus')) d.style.display = 'none';
+      ['focus', 'how', 'contact', 'faq'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.style.display = 'none';
+        document.querySelectorAll(`.nav-links a[href="#${id}"]`).forEach(a => a.parentElement.style.display = 'none');
       });
+      document.querySelectorAll('.divider').forEach(d => d.style.display = 'none');
     }
   </script>
 </body>
